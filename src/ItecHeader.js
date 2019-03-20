@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import logo from './images/s5_logo.png';
-import './App.scss';
+import './ItecHeader.scss';
 
-class App extends Component {
+class ItecHeader extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="ItecHeader">
         <header>
           <div className="container header-container">
             <div className="titulo">
@@ -25,4 +25,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default ItecHeader;

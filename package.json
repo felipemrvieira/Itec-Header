@@ -1,7 +1,8 @@
 {
   "name": "itec-header",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
+  "license": "MIT",
+  "main": "./src/index.js",
   "dependencies": {
     "bootstrap": "4.1.1",
     "font-awesome": "4.7.0",
