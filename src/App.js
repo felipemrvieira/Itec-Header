@@ -1,24 +1,24 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from './images/s5_logo.png';
+import './App.scss';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+        <header>
+          <div className="container header-container">
+            <div className="titulo">
+              <img src={logo} alt="Logo Alagoas" />
+            </div>
+            <div className="orgao">
+              <h5 className="orgao-titulo">Tecnologia da Informação</h5>
+              <p className="orgao-descricao">Instituto de Tecnologia em Informática e Informação do Estado de Alagoas</p>
+            </div>
+            <div className="busca">
+              <input type="text" name="" id="busca-principal" />
+            </div>
+          </div>
         </header>
       </div>
     );
